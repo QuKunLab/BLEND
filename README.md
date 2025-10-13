@@ -31,8 +31,8 @@ BLEND can be installed in two steps:
 
 2. run the code:
 
-    cd $package
-    pip install -e .
+        cd $package
+        pip install -e .
 
 # Demo
 
