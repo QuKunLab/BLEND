@@ -11,17 +11,17 @@ BLEND requires pytorch. Please visit the official PyTorch website to obtain the 
 
 https://pytorch.org/get-started/locally/
 
-Users could use nvcc --version to check the CUDA version for installation.
+Users could use `nvcc --version` to check the CUDA version for installation.
 
 For example, create a new environment named blend_demo and activatit.
 
-conda create -y -n blend_demo python=3.11.9
-conda activate blend_demo
+    conda create -y -n blend_demo python=3.11.9
+    conda activate blend_demo
 
 If you would like to install the exact library versions used in our study, you can do so with:
 
-conda env create -f environment.yml
-conda activate blend_demo
+    conda env create -f environment.yml
+    conda activate blend_demo
 
 ## Installation
 
@@ -31,12 +31,12 @@ BLEND can be installed in two steps:
 
 2. run the code:
 
-cd $package
-pip install -e .
+    cd $package
+    pip install -e .
 
 # Demo
 
-We provide a demo for BLEND usage in the BLEND/ directory inside the BLEND package.
+We provide a manual for BLEND usage in the BLEND/ directory inside the BLEND package.
 
 
 
