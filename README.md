@@ -1,4 +1,5 @@
-# Introduction
+# BLEND
+## Introduction
 **BLEND** is a computational tool designed for 2D/3D subcellular resolution spatial transcriptomics data. Its key purpose is to identify spatial domains (tissue/cell substructures) from highly sparse and noisy measurements.
 ![BLEND_diagram](./fig/BLEND_pipeline.png)
 
