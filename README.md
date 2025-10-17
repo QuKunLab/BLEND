@@ -1,6 +1,7 @@
 # BLEND
 ## Introduction
-**BLEND** is a computational tool designed for 2D/3D subcellular resolution spatial transcriptomics data. Its key purpose is to identify spatial domains (tissue/cell substructures) from highly sparse and noisy measurements.
+**BLEND** BLEND is a tool for identifying the spatial domain of subcellular resolution spatial transcriptome data.
+
 ![BLEND_diagram](./fig/BLEND_pipeline.png)
 
 # Installation Guide
@@ -12,6 +13,8 @@ BLEND requires pytorch. Please visit the official PyTorch website to obtain the 
 https://pytorch.org/get-started/locally/
 
 Users could use `nvcc --version` to check the CUDA version for installation.
+
+The version of python we use is: `python = 3.11.9`. The main library versions are as follows: `numpy = 2.1.3, scanpy = 1.11.0, scikit-learn = 1.5.2, scipy = 1.15.2, torch = 2.6.0`
 
 For example, create a new environment named blend_demo and activatit.
 
@@ -37,6 +40,10 @@ BLEND can be installed in two steps:
 # Demo
 
 We provide a manual for BLEND usage in the BLEND/ directory inside the BLEND package.
+
+# Tips
+
+If you encounter difficulties downloading our code from GitHub, we recommend downloading it from Zenodo: https://doi.org/10.5281/zenodo.17341055
 
 
 
