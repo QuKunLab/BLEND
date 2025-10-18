@@ -1,7 +1,6 @@
 # BLEND
 ## Introduction
 **BLEND** (biased low-rank matrix decomposition incorporating single-cell transcriptomic data) is a method that applies biased low-rank matrix factorization with single-cell transcriptomic guidance to mitigate the impact of noise and jointly model gene expression and spatial coordinates, enabling precise identification of spatial domains in SSRT.
-is a tool for identifying the spatial domain of subcellular resolution spatial transcriptome data.
 
 ![BLEND_diagram](./fig/BLEND_pipeline.png)
 
