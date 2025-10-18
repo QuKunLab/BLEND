@@ -8,13 +8,28 @@
 
 ## Requirements
 
-BLEND requires pytorch. Please visit the official PyTorch website to obtain the appropriate installation command based on your system and CUDA version:
+````markdown
+BLEND is implemented in Python and requires:
 
-https://pytorch.org/get-started/locally/
+- **Python:** `3.11.9`
 
-Users could use `nvcc --version` to check the CUDA version for installation.
+**Packages:**
+- `numpy` `2.1.3`
+- `scanpy` `1.11.0`
+- `scikit-learn` `1.5.2`
+- `scipy` `1.15.2`
+- `torch` `2.6.0`
 
-The version of python we use is: `python = 3.11.9`. The main library versions are as follows: `numpy = 2.1.3, scanpy = 1.11.0, scikit-learn = 1.5.2, scipy = 1.15.2, torch = 2.6.0`
+> **Tip:** Visit the official PyTorch website to obtain the appropriate installation command for your system and CUDA version:  
+> https://pytorch.org/get-started/locally/  
+> You can check your CUDA version with:
+>
+> ```bash
+> nvcc --version
+> ```
+````
+
+
 
 For example, create a new environment named blend_demo and activatit.
 
