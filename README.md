@@ -8,7 +8,7 @@
 
 ## Requirements
 
-````markdown
+
 BLEND is implemented in Python and requires:
 
 - **Python:** `3.11.9`
@@ -27,7 +27,6 @@ BLEND is implemented in Python and requires:
 > ```bash
 > nvcc --version
 > ```
-````
 
 
 
