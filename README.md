@@ -54,7 +54,7 @@ BLEND can be installed in two steps:
 
 # Demo
 
-We provide several usage examples in **BLEND/BLEND_manual**.
+If you’re unsure how to use BLEND to identify spatial domains in SSRT data, see the examples in **BLEND/BLEND_manual**.
 
 # Tips
 
