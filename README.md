@@ -52,6 +52,7 @@ BLEND can be installed in two steps:
         cd $package
         pip install -e .
 
+
 # Demo
 
 If you’re unsure how to use BLEND to identify spatial domains in SSRT data, see the examples in **BLEND/BLEND_manual**.
