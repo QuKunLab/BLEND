@@ -20,13 +20,13 @@ BLEND is implemented in Python and requires:
 - `scipy` `1.15.2`
 - `torch` `2.6.0`
 
-    > **Tip:** Visit the official PyTorch website to obtain the appropriate installation command for your system and CUDA version:  
-    > https://pytorch.org/get-started/locally/  
-    > You can check your CUDA version with:
-    >
-    > ```bash
-    > nvcc --version
-    > ```
+> **Tip:** Visit the official PyTorch website to obtain the appropriate installation command for your system and CUDA version:  
+> https://pytorch.org/get-started/locally/  
+> You can check your CUDA version with:
+>
+> ```bash
+> nvcc --version
+> ```
 
 
 
