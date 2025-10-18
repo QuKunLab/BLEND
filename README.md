@@ -33,12 +33,14 @@ We recommend using a **conda** virtual environment to manage **BLEND** dependenc
 ```bash
 conda create -y -n blend_demo python=3.11.9
 conda activate blend_demo
+```
 
 
 If you would like to install the exact library versions used in our study, you can do so with:
 ```bash
 conda env create -f environment.yml
 conda activate blend_demo
+```
 
 ## Installation
 
