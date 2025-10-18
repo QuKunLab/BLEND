@@ -28,17 +28,17 @@ BLEND is implemented in Python and requires:
 > nvcc --version
 > ```
 
+We recommend using a **conda** virtual environment to manage **BLEND** dependencies. Create and activate the environment:
 
+```bash
+conda create -y -n blend_demo python=3.11.9
+conda activate blend_demo
 
-For example, create a new environment named blend_demo and activatit.
-
-    conda create -y -n blend_demo python=3.11.9
-    conda activate blend_demo
 
 If you would like to install the exact library versions used in our study, you can do so with:
-
-    conda env create -f environment.yml
-    conda activate blend_demo
+```bash
+conda env create -f environment.yml
+conda activate blend_demo
 
 ## Installation
 
