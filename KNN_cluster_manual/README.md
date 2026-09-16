@@ -1,12 +1,12 @@
 # BLEND_manual_data
 
-GSM9046248_Embryo_E8.0_stereo_rep2_spatial.h5ad
+Mouse_embryo_cluster_6w.h5ad
 
-scRNA_seq_E80.h5ad
+stereo_seq.PMID_35512705.mouse.embryo.E16.5_GEM_bin14.h5ad
 
-mouse_brain.h5ad
+Mouse_olfa_cluster_6w.h5ad
 
-sc_mousebrain.h5ad
+w01_PMID_35512705_Mouse_olfa_S1_stereo_seq.h5ad
 
 Please obtain data through the following link: https://drive.google.com/drive/folders/1wm1Zaw-8SVzz24PbNxUYdb25JBGkxc-I?usp=sharing
 
