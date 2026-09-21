@@ -3,7 +3,7 @@ from .utils import (
     S_calculate, median_normalize, calc_rank, calc_wedge_rank, calc_alra_rank, 
     calculate_rank, initialize, sc_embedding_calculate, reorder_rows
 )
-from .model import W_fit, fit
+from .model import W_fit, fit, loss, predict_parameter
 from .main import BLEND_fit
 from .visualize import blend_leiden_cluster, resolve_colors, plot_umap, plot_spatial
 from .KNN_cluster import KNN_classify
@@ -15,7 +15,8 @@ __all__ = [
     "S_calculate", "median_normalize", "calculate_rank",
     "calc_rank", "calc_wedge_rank", "calc_alra_rank",
     "initialize", "sc_embedding_calculate", "reorder_rows",
-    "W_fit", "fit", "BLEND_fit", "blend_leiden_cluster", 
+    "W_fit", "fit", "loss", "predict_parameter",
+    "BLEND_fit", "blend_leiden_cluster", 
     "resolve_colors", "plot_umap", "plot_spatial",
     "KNN_classify","make_factor_df_from_matrix",
     "set_factor_index","select_gene_sets_from_H","jaccard_matrix","plot_jaccard_clustermap"
