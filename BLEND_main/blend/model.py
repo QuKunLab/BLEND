@@ -475,12 +475,13 @@ def loss(X, W, H, V, S=None, P=None, lamb=10, alpha=13, rank=10, tol=1e-3, weigh
 
 
 def predict_parameter(model, kl_loss, percent):
-    """
-    根据 kl_loss 和 percent 判断参数类别。
 
-    返回：
-        predicted_parameter: 预测参数组合
-        probability_class1: 属于 lambda=10, gamma=0.6 的模型概率
+    """
+        Determine the parameter category based on kl_loss and percent.
+
+    Returns:
+        predicted_parameter: Predicted parameter combination.
+        probability_class1: Probability of belonging to the lambda=10, gamma=0.6 class.
     """
 
     if kl_loss <= 0:
