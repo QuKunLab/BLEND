@@ -9,7 +9,7 @@ If the automatically predicted parameter setting does not yield satisfactory spa
 3. λ: λ regulates the strength of spatial smoothness. Larger values encourage greater consistency among neighboring locations, whereas excessively large values may lead to over-smoothing and blur the boundaries between adjacent spatial domains. Therefore, when neighboring small or similar domains are overly merged, λ can be reduced.
 
 Based on these observations, we recommend a two-step parameter selection strategy. First, users can apply BLEND's automatic parameter selection module to obtain an initial parameter setting. Second, the parameters can be further refined based on the resulting spatial-domain patterns. In particular, if small or highly similar spatial domains remain unresolved, users may reduce λ or increase γ. We validated this strategy on the human pancreas dataset (Dataset 9): the automatic module first selected (λ = 10, γ = 0.6, α = 13), after which reducing λ from 10 to 5 while keeping γ and α unchanged recovered the pancreatic stellate cell (PSC) region.
-![BLEND_parameters](./BLEND_parameters.png)
+![BLEND_parameters](./BLEND_parameter.png)
 For guidance on the number of iterations and data preprocessing, please refer to the 2D and 3D examples in the BLEND_manual folder.
 
 # BLEND_manual_data
