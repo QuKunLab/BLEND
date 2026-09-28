@@ -59,10 +59,10 @@ Detailed tutorials and example workflows are provided in [`BLEND_manual`](./BLEN
 
 The manuals cover different BLEND analysis scenarios:
 
-- [BLEND with scRNA-seq reference](./BLEND_manual/blend_with_singlecell.ipynb)
+- [BLEND with scRNA-seq reference](./BLEND_manual/blend with_singlecell.ipynb)
   Identify spatial domains using BLEND with an scRNA-seq reference for guidance.
 
-- [BLEND without scRNA-seq reference](./BLEND_manual/blend_without_singlecell.ipynb)  
+- [BLEND without scRNA-seq reference](./BLEND_manual/blend without_singlecell.ipynb)  
   Identify spatial domains using BLEND when an scRNA-seq reference is unavailable.
 
 - [BLEND for 3D SST data](./BLEND_manual/blend_3D.ipynb) 
