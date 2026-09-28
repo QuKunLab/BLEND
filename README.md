@@ -53,9 +53,23 @@ BLEND can be installed in two steps:
         pip install -e .
 
 
-# Demo
+# Documentation
 
-If you’re unsure how to use BLEND to identify spatial domains in SSRT data, see the examples in **BLEND/BLEND_manual**.
+Detailed tutorials and example workflows are provided in [`BLEND_manual`](./BLEND_manual/).
+
+The manuals cover different BLEND analysis scenarios:
+
+- [BLEND with scRNA-seq reference](./BLEND_manual/blend_with_singlecell.ipynb)
+  Identify spatial domains using BLEND with an scRNA-seq reference for guidance.
+
+- [BLEND without scRNA-seq reference](./BLEND_manual/blend_without_singlecell.ipynb)  
+  Identify spatial domains using BLEND when an scRNA-seq reference is unavailable.
+
+- [BLEND for 3D SST data](./BLEND_manual/blend_3D.ipynb) 
+  Apply BLEND to 3D SST datasets and identify spatial domains across serial tissue sections.
+
+- [BLEND parameter selection](./BLEND_manual/blend_parameter_guidance.ipynb) 
+  Guidance on parameter selection, including automatic parameter estimation and further parameter refinement.
 
 # Tips
 
