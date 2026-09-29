@@ -1,34 +1,55 @@
-# Parameter Selection
+# BLEND Tutorials and Parameter Guidance
 
-BLEND has three main hyperparameters: α, λ, and γ. To facilitate parameter selection, we provide an automatic parameter selection model that helps users obtain a suitable initial parameter setting. Detailed usage instructions are provided in blend_parameter_guidance.ipynb.
+This directory provides tutorials and parameter-selection guidance for **BLEND**.  
+The notebooks demonstrate how to run BLEND under different data settings and how to select appropriate parameters for your dataset.
 
-If the automatically predicted parameter setting does not yield satisfactory spatial-domain identification results, the parameters can be further fine-tuned according to the following guidelines:
+## Files
 
-1. α: BLEND is robust to α over a broad range (α = 9–25), and therefore dataset-specific tuning is generally unnecessary. We recommend using the default value of (α = 13).
-2. γ: γ controls the weighting of zero-valued entries and can substantially affect spatial-domain identification. Smaller values of γ may reduce the separability between spatial domains, whereas excessively large values may lead to inappropriate merging of adjacent or similar domains or to diffuse spatial patterns. Therefore, when small or highly similar spatial domains remain difficult to distinguish, γ can be moderately increased.
-3. λ: λ regulates the strength of spatial smoothness. Larger values encourage greater consistency among neighboring locations, whereas excessively large values may lead to over-smoothing and blur the boundaries between adjacent spatial domains. Therefore, when neighboring small or similar domains are overly merged, λ can be reduced.
+| File | Description |
+|------|-------------|
+| `blend_3D.ipynb` | Tutorial for applying BLEND to 3D spatial data. |
+| `blend_with_singlecell.ipynb` | Tutorial for running BLEND when single-cell reference data are available. |
+| `blend_without_singlecell.ipynb` | Tutorial for running BLEND without single-cell reference data. |
+| `blend_parameter_guidance.ipynb` | Step-by-step example for parameter selection in BLEND. |
+| `BLEND_parameter.png` | Illustration of the BLEND parameter-selection workflow. |
+| `parameter_classifier.joblib` | Pre-trained classifier used for parameter recommendation. |
 
-Based on these observations, we recommend a two-step parameter selection strategy. First, users can apply BLEND's automatic parameter selection module to obtain an initial parameter setting. Second, the parameters can be further refined based on the resulting spatial-domain patterns. In particular, if small or highly similar spatial domains remain unresolved, users may reduce λ or increase γ. We validated this strategy on the human pancreas dataset (Dataset 9): the automatic module first selected (λ = 10, γ = 0.6, α = 13), after which reducing λ from 10 to 5 while keeping γ and α unchanged recovered the pancreatic stellate cell (PSC) region.
+## Parameter Selection
 
-![BLEND_parameters](./BLEND_parameter.png)
+The performance of BLEND may depend on the choice of parameters for different datasets.
 
-# Parameter Selection Example
+For a practical example of parameter selection, please refer to:
 
-For an example of parameter selection, please refer to [blend_parameter_guidance.ipynb](./blend_parameter_guidance.ipynb).
+👉 [blend_parameter_guidance.ipynb](./blend_parameter_guidance.ipynb)
 
-# BLEND_manual_data
+The overall parameter-selection workflow is illustrated below:
 
-GSM9046248_Embryo_E8.0_stereo_rep2_spatial.h5ad
+<p align="center">
+  <img src="./BLEND_parameter.png" width="800">
+</p>
 
-scRNA_seq_E80.h5ad
+## Tutorials
 
-mouse_brain.h5ad
+Choose the appropriate tutorial according to your data:
 
-sc_mousebrain.h5ad
+- **3D spatial data:**  
+  [blend_3D.ipynb](./blend_3D.ipynb)
 
-Please obtain data through the following link: https://drive.google.com/drive/folders/1wm1Zaw-8SVzz24PbNxUYdb25JBGkxc-I?usp=sharing
+- **With single-cell reference data:**  
+  [blend_with_singlecell.ipynb](./blend_with_singlecell.ipynb)
 
+- **Without single-cell reference data:**  
+  [blend_without_singlecell.ipynb](./blend_without_singlecell.ipynb)
 
+## Recommended Workflow
 
+1. Select the tutorial corresponding to your data type.
+2. Prepare the input data following the notebook instructions.
+3. Use the parameter-selection guidance to determine appropriate BLEND parameters.
+4. Run BLEND and evaluate the results.
+5. Adjust the parameters if necessary based on the characteristics of your dataset.
 
+## Notes
 
+The notebooks are intended to provide reproducible examples for using BLEND.  
+Users may need to adjust file paths and parameters according to their own datasets.
