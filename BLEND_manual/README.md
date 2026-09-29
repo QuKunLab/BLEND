@@ -16,17 +16,17 @@ The notebooks demonstrate how to run BLEND under different data settings and how
 
 ## Parameter Selection
 
-The performance of BLEND may depend on the choice of parameters for different datasets.
+BLEND performance may depend on the parameter choices for different datasets.
+
+For detailed guidance on parameter selection, please refer to:
+
+👉 [blend_parameter_guidance.md](./BLEND_manual/blend_parameter_guidance.md).
 
 For a practical example of parameter selection, please refer to:
 
 👉 [blend_parameter_guidance.ipynb](./blend_parameter_guidance.ipynb)
 
-The overall parameter-selection workflow is illustrated below:
 
-<p align="center">
-  <img src="./BLEND_parameter.png" width="800">
-</p>
 
 ## Tutorials
 
