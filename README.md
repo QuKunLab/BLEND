@@ -68,7 +68,7 @@ The manuals cover different BLEND analysis scenarios:
 - [BLEND for 3D SST data](./BLEND_manual/blend_3D.ipynb) 
   Apply BLEND to 3D SST datasets and identify spatial domains across serial tissue sections.
 
-- [BLEND parameter selection](./BLEND_manual/blend_parameter_guidance.ipynb) 
+- [Guidance on parameter selection](./BLEND_manual/blend_parameter_guidance.md) 
   Guidance on parameter selection, including automatic parameter estimation and further parameter refinement.
 
 # Tips
