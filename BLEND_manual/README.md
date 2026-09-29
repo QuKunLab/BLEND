@@ -12,6 +12,10 @@ Based on these observations, we recommend a two-step parameter selection strateg
 
 ![BLEND_parameters](./BLEND_parameter.png)
 
+# Parameter Selection Example
+
+For an example of parameter selection, please refer to [blend_parameter_guidance.ipynb](./blend_parameter_guidance.ipynb).
+
 # BLEND_manual_data
 
 GSM9046248_Embryo_E8.0_stereo_rep2_spatial.h5ad
