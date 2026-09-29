@@ -20,7 +20,7 @@ BLEND performance may depend on the parameter choices for different datasets.
 
 For detailed guidance on automatic parameter selection and refinement, please refer to:
 
-👉 [blend_parameter_guidance.md](./BLEND_manual/blend_parameter_guidance.md).
+👉 [blend_parameter_guidance.md](./blend_parameter_guidance.md).
 
 For a practical example of parameter selection, please refer to:
 
