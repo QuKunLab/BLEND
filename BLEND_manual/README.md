@@ -18,7 +18,7 @@ The notebooks demonstrate how to run BLEND under different data settings and how
 
 BLEND performance may depend on the parameter choices for different datasets.
 
-For detailed guidance on parameter selection, please refer to:
+For detailed guidance on automatic parameter selection and refinement, please refer to:
 
 👉 [blend_parameter_guidance.md](./BLEND_manual/blend_parameter_guidance.md).
 
